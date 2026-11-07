@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JJ-CLOUD</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #080d19;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #111b30;
+  padding: 22px;
+  text-align: center;
+  border-bottom: 2px solid #287cff;
+}
+
+header h1 {
+  color: #3894ff;
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 15px;
+}
+
+.card {
+  background: #14213a;
+  border: 1px solid #263e65;
+  border-radius: 14px;
+  padding: 22px;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #1677ff;
+  color: white;
+  border: 0;
+  padding: 13px 22px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0054c7;
+}
+
+.price {
+  color: #42a5ff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.status {
+  color: #37e98b;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #78869e;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>☁️ JJ-CLOUD</h1>
+  <p>Seu PC virtual na nuvem</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>🖥️ Meu computador virtual</h2>
+    <p>Status: <span class="status">Painel disponível</span></p>
+    <p>Servidor: JJ-CLOUD</p>
+    <button onclick="alert('Servidor ainda não conectado!')">
+      LIGAR MEU PC
+    </button>
+  </div>
+
+  <div class="card">
+    <h2>🎮 JJ-CLOUD GAMING</h2>
+    <p>Espaço para jogar Roblox e outros jogos.</p>
+    <button onclick="alert('Aguardando conexão com o servidor!')">
+      ACESSAR PC
+    </button>
+  </div>
+
+  <h2>💎 Nossos planos</h2>
+
+  <div class="card">
+    <h3>FREE</h3>
+    <p class="price">R$ 0,00</p>
+    <p>Plano gratuito</p>
+    <button onclick="alert('Plano demonstrativo')">Selecionar</button>
+  </div>
+
+  <div class="card">
+    <h3>PRO</h3>
+    <p class="price">R$ 19,90/mês</p>
+    <p>Plano premium demonstrativo</p>
+    <button onclick="alert('Plano ainda não disponível')">Selecionar</button>
+  </div>
+
+  <div class="card">
+    <h3>ULTRA</h3>
+    <p class="price">R$ 39,90/mês</p>
+    <p>Plano avançado demonstrativo</p>
+    <button onclick="alert('Plano ainda não disponível')">Selecionar</button>
+  </div>
+
+</div>
+
+<footer>
+  JJ-CLOUD © 2026
+  <p>Seu mundo. Seu computador. Sua nuvem.</p>
+</footer>
+
+</body>
+</html>
